@@ -1,7 +1,7 @@
 // ===== CONFIG =====
 const HER_NAME = "พี่ฝ้าย";
 const FROM_NAME = "น้องชิที่รักคุณฝ้ายสุดหัวใจ";
-const BIRTHDAY_DATE = "2025-11-09T00:00:00+07:00"; // วันเกิดที่ให้มา
+const BIRTHDAY_DATE = "2025-10-16T02:28:00+07:00"; // วันเกิดที่ให้มา
 const MESSAGE = `สุขสันต์วันเกิดนะครับพี่สาว 
 
 ขอให้วันนี้และทุกๆวันต่อจากนี้ของพี่สาวเป็นวันที่ดีนะคับ มีความสุขมากๆยิ้มเยอะๆ 
@@ -366,3 +366,4 @@ showSlide(0);
 next.addEventListener("click", ()=> showSlide(index+1));
 prev.addEventListener("click", ()=> showSlide(index-1));
 dotEls.forEach((d,i)=> d.addEventListener("click", ()=> showSlide(i)));
+
